@@ -3,12 +3,43 @@
 }
 
 .App-header {
-  background-image: url(sbg.jpg);
-  min-height: 100vh;
+  background-image: url("sbg.jpg");
+/*  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center;*/
+
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.particles{
+  z-index: -1;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#navbar { 
+  transform: translateY(-100%);
+}
+...
+.nav-container:hover #navbar {
+  position: absolute;
+  transform: translateY(0);
+}
+#navbar {
+  display: flex;
+  background-color: black;
+  transform: translateY(-100%);
+  transition: transform .5s cubic-bezier(.4,0,.2,1);
+}
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+#navbar > * {
+  padding: 1rem;
+}
+.nav-container:hover #navbar {
+  transform: translateY(0);
 }
