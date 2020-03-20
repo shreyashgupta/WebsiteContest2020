@@ -1,3 +1,7 @@
+
+NOTE:: To Run Properly you will need particle.js \
+       install it using npm install react-particles-js 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
