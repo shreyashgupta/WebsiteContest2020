@@ -64,7 +64,7 @@ function App() {
       <h1 className='producthead'>aboutUs</h1>
       <p className="intro">We are the official Web Development club of RVCE ...!</p>
       <p className="body">
-        The purpose of the Web Development Club is:<br/>
+        Purpose of the Web Development Club is:<br/>
         <li>To promote learning and professional growth in the field of web development.</li>
         <li>To establish a network of like-minded individuals who want to pursue web development</li>
         <li>To give back to the RVCE and local community by offering web development services to students, faculty, and clubs and organizations.</li>
