@@ -76,17 +76,67 @@ src: local('Atlane Regular'), url('Atlane OTF.woff') format('woff');
   font-size: 5vw;
   align: center;
 }
-.about
+.products
 {
-    background: linear-gradient(
+/*    background: linear-gradient(
     to left,
     rgba(7,27,82,1) 0%,
     rgba(0,128,128,1) 100%
   );
-    height: 100vh;
+*/background-color: rgba(10,25,35,1);  
+  height: 100vh;
 }
-.abouthead
+.producthead
 {
   font-family:"Atlane Regular";
   color:white;  
+  font-size: 5vw}
+/*carousel sta*/
+#jumboCarousel {
+    margin-top:10vh;
+    margin-left: 30vh;
+    height:50vh;
+    width:80vw;
+}
+#jumboCarousel img {
+    height: 50vh;
+    width:80vh;
+    margin-left:50vh;
+}
+#jumboCarousel > .carousel-indicators > li {
+    border-radius: 0px;
+    min-width: 25px;
+    background-color: #9d9d9d;
+    border: 1px solid black;
+    margin-right: 10px;;
+    margin-left: 10px;;
+}
+#jumboCarousel > .carousel-indicators > .active {
+    background-color: orange;
+}
+#jumboCarousel .carousel-caption {
+    color: white;
+    xright: 58%;
+    text-align: center;
+    max-width: 300px;
+    left: 0;
+    top: 1px;
+  /*top: 50%; */
+  xtransform: translateY(-50%);
+  xbottom: initial;
+  background: rgba(0,0,0,0.5);
+  padding:10px;
+  height:100%;
+  
+}
+
+.item {
+    -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  }
+.about
+{
+  background-color: rgba(15,30,40,1);  
+  height: 100vh;
 }
