@@ -95,12 +95,12 @@ src: local('Atlane Regular'), url('Atlane OTF.woff') format('woff');
 #jumboCarousel {
     margin-top:10vh;
     margin-left: 30vh;
-    height:50vh;
+    height:75vh;
     width:80vw;
 }
 #jumboCarousel img {
-    height: 50vh;
-    width:80vh;
+    height: 70vh;
+    width:100vh;
     margin-left:50vh;
 }
 #jumboCarousel > .carousel-indicators > li {

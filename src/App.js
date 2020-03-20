@@ -1,18 +1,20 @@
 import React from 'react';
 import './App.css';
 import Particles from 'react-particles-js';
-import Carousel from 'react-bootstrap/Carousel';
 function App() {
   return (
     <div className="App">
-      <div className="App-header">
+      <div className="App-header" id="home">
         <div class="nav-container">
           <nav id = 'navbar'>
             <div class="link-container ">
-              <a href='#' class="nav-link">aboutUs</a>
+              <a href='#home' class="nav-link">Top</a>
+            </div>
+            <div class="link-container ">
+              <a href='#ab' class="nav-link">aboutUs</a>
             </div>
             <div class="link-container">
-              <a href='#' class="nav-link">Products</a>
+              <a href='#prod' class="nav-link">Products</a>
             </div>
             <div class="link-container">
               <a href='#' class="nav-link">some thing</a>
@@ -49,10 +51,11 @@ function App() {
             height="100vh"
           />
       </div>
-      <div className='about'>
+      <div className='about' id="ab">
+      <h1 className='producthead'>aboutUs</h1>
       </div>
-      <div className='products'>
-        <h1 className='producthead'>aboutUs</h1>
+      <div className='products' id="prod">
+        <h1 className='producthead'>Showcase</h1>
       <div id="jumboCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators hidden-xs">
             <li data-target="#jumboCarousel" data-slide-to="0" class="active"></li>
