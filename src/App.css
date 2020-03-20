@@ -140,3 +140,34 @@ src: local('Atlane Regular'), url('Atlane OTF.woff') format('woff');
   background-color: rgba(15,30,40,1);  
   height: 100vh;
 }
+#events
+{
+  font-family: "Atlane Regular";
+  color:white;
+  background-color: rgba(2,12,20,1);
+  height:100vh;
+}
+#events h1
+{
+  font-size:5vw;
+}
+html {
+  scroll-behavior: smooth;
+}
+#contact
+{
+  font-family: "Atlane Regular";
+  color:white;
+  background-color: rgba(0,7,10,1);
+  height:100vh;
+}
+#contact h1
+{
+  font-size:5vw;
+}
+.abt
+{
+    //font-family: "Atlane Regular";
+  color:white;
+  font-size:5vw;
+}
