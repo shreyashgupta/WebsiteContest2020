@@ -8,19 +8,21 @@ function App() {
         <div class="nav-container">
           <nav id = 'navbar'>
             <div class="link-container ">
-              <a href='#' class="nav-link">Home</a>
+              <a href='#' class="nav-link">aboutUs</a>
             </div>
             <div class="link-container">
-              <a href='#' class="nav-link">FAQ</a>
+              <a href='#' class="nav-link">Products</a>
             </div>
             <div class="link-container">
-              <a href='#' class="nav-link">List a Coin</a>
+              <a href='#' class="nav-link">some thing</a>
             </div>
             <div class="link-container">
               <a href='#' class="nav-link">Contact Us</a>
             </div>
           </nav>
         </div>
+        <h1 className="head1">webDev club</h1>
+        <h1 className="head2">of RVCE</h1>
         <Particles className="particles"
           params={{
                   "particles": {
@@ -29,24 +31,25 @@ function App() {
                   },
                   "size": {
                   "value": 3
-                  } 
+                  }
                   },
                   "interactivity": {
                   "events": {
                   "onhover": {
                   "enable": false,
                   "mode": "repulse"
+
                   }
                   }
                   }
                   }
                 }
             width= "auto"
-            height="100vh" 
+            height="100vh"
           />
       </div>
-      <div>
-        <p>this is mid</p>
+      <div className='about'>
+        <h1 className='abouthead'>aboutUs</h1>
       </div>
     </div>
   );
