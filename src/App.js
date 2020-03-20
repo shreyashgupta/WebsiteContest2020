@@ -4,12 +4,16 @@ import Particles from 'react-particles-js';
 import oc from './oc.jpeg';
 import i2 from './i2.jpg';
 import fb from './fb.jpeg';
+import pr from './pr.jpg';
 import twt from './twt.jpeg';
 import insta from './insta.png';
 function App() {
   return (
     <div className="App">
       <div className="App-header" id="home">
+      <div class="button_cont" align="center"><a class="example_b" 
+      href="https://forms.gle/DQaNbmHbypY9q4gy9" target="_blank" rel="nofollow noopener">
+      Join Us</a></div>
         <div class="nav-container">
           <nav id = 'navbar'>
             <div class="link-container ">
@@ -79,7 +83,6 @@ function App() {
             <li data-target="#jumboCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#jumboCarousel" data-slide-to="1"></li>
             <li data-target="#jumboCarousel" data-slide-to="2"></li>
-            <li data-target="#jumboCarousel" data-slide-to="3"></li>
         </ol>
 
         <div class="container">
@@ -95,7 +98,7 @@ function App() {
                   </div>
               </div>
               <div class="item" id="slide3">
-                  <img src={i2} alt="Slide 3"/>
+                  <img src={pr} alt="Slide 3"/>
                   <div class="carousel-caption">
                       <h1 className="c4">Name and Fame</h1>
                       <p class="lead3">
@@ -119,18 +122,6 @@ function App() {
                      {/* <button type="button" href="#" class="btn btn-lg btn-primary">Learn More</button> */}
                  </div>
              </div>
-             <div class="item" id="slide2">
-                <img src="https://designshack.net/wp-content/uploads/placeholder-image.png" alt="Slide 2"/>
-                  <div class="carousel-caption">
-                      <h1>Best rated/Recomended Web development certification courses</h1>
-                      <p class="lead">
-                        <p><big>1)Complete React Developer in 2020-Zero to Mastery <a href="https://www.udemy.com/share/101WH4/">Learn More</a></big></p><br/>
-                        <p><big>2)The Complete react developer course <a href="https://www.udemy.com/share/101XgI/">Learn More</a></big></p><br/>
-                        <p><big>3)The Complete web developer in 2020-Zero to Mastery <a href="https://www.udemy.com/share/101WcU/">Learn More</a></big></p><br/>  
-                      </p>
-                      {/* <a href="#" class="btn btn-lg btn-primary">Learn More</a> */}
-                  </div>
-              </div>
           </div>
         </div>     
       </div>
